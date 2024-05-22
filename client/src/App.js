@@ -7,6 +7,7 @@ import { NoteList } from "./NoteList";
 import { NoteLayout } from "./NoteLayout";
 import { Note } from "./Note";
 import { EditNote } from "./EditNote";
+import Home from './pages/Home';
 import './index.css';
 
 function App() {
