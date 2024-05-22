@@ -33,6 +33,9 @@ export function NoteList({ availableTags, notes, deleteTag, updateTag }) {
                     >
                         Edit Tags
                     </button>
+                    <Link to="/">
+                        <button className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">Back</button>
+                    </Link>
                 </div>
             </div>
             <form>
