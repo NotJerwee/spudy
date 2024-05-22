@@ -72,7 +72,8 @@ function App() {
   return (
     <div className="container mx-auto my-4">
       <Routes>
-        <Route path="/" element={<NoteList notes={notesWithTags} availableTags={tags} updateTag={updateTag} deleteTag={deleteTag} />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/notes" element={<NoteList notes={notesWithTags} availableTags={tags} updateTag={updateTag} deleteTag={deleteTag} />} />
         <Route path="/new" element={<NewNote onSubmit={onCreateNote} onAddTag={addTag} availableTags={tags} />} />
         <Route path="/:id" element={<NoteLayout notes={notesWithTags} />}>
           <Route index element={<Note onDeleteNote={onDeleteNote} />} />
