@@ -6,17 +6,18 @@ function Home() {
     return (
         <div>
             <Navbar /> {/* Including the Navbar at the top */}
-            <div id="home" className='w-full h-screen flex flex-col justify-center items-center' style={{ backgroundImage: `url(/Study-unsplash.jpg)`, backgroundSize: 'cover' }}>
+            <div id="home" className='w-full h-screen mt-100 flex flex-col justify-center items-center' style={{ backgroundImage: `url(/Study-unsplash.jpg)`, backgroundSize: 'cover', paddingTop: '300px'}}>
                 <div className='text-center p-4'>
                     <h1 className='text-5xl font-bold mb-4'>Study, learn, plan, organize</h1>
                     <p className='text-xl mb-4'>Your ultimate study space.</p>
                     <Link to="/Signup" className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>
-                        Get Started
+                        Get Spudy free
                     </Link>
+                    
                 </div>
             </div>
 
-            <div id="about" className="text-4xl font-bold text-gray-800 mb-6">
+            <div id="about" className="text-4xl m-20 p-10 font-bold text-gray-800 mb-6">
                 <h1>About Spudy</h1>
                 <p className="text-lg text-gray-600 mb-4">
                     Spudy is your ultimate study companion designed to help streamline
