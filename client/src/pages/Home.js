@@ -14,18 +14,34 @@ function Home() {
                     </button>
                 </div>
             </div>
-            <div className='bg-white text-gray-800 py-8 px-4'>
-                <h2 className='text-3xl font-bold text-center'>Features</h2>
-                <ul className='list-disc space-y-2 p-4 m-4'>
-                    <li>Notes: Take and organize your notes efficiently.</li>
-                    <li>Flashcards: Create and review flashcards to enhance your learning.</li>
-                    <li>Pomodoro Timer: Manage your study sessions with a built-in Pomodoro timer.</li>
-                </ul>
-            </div>
+
+			<h1 className="text-4xl font-bold text-gray-800 mb-6">About Spudy</h1>
+                <p className="text-lg text-gray-600 mb-4">
+                    Spudy is your ultimate study companion designed to help streamline
+                    your learning experience, organize your study materials, and boost
+                    your productivity. Whether you're a student, a lifelong learner, or
+                    just someone looking to structure their learning, Spudy offers all
+                    the tools you need to succeed.
+                </p>
+                <p className="text-lg text-gray-600 mb-4">
+                    We believe that effective learning is accessible, engaging, and
+                    enjoyable. That's why we've built features like a customizable
+                    notebook, flashcard system for memory training, and a Pomodoro timer
+                    to manage your study sessions efficiently.
+                </p>
+                <p className="text-lg text-gray-600 mb-4">
+                    Founded in 2024, Spudy is continually evolving to meet the diverse
+                    needs of learners around the globe. We're committed to helping you
+                    achieve your learning goals.
+                </p>
+
+
             <div className='bg-gray-200 text-gray-800 p-4'>
                 <h2 className='text-3xl font-bold text-center'>Contact</h2>
                 <p className='text-center'>Email: jerrylin2488@gmail.com</p>
             </div>
+
+			
         </div>
     )
 }
