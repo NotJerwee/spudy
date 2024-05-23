@@ -1,41 +1,64 @@
+/* General body and html styles to ensure the login form is centered and full page is used effectively */
+body, html {
+    height: 100%;  /* Full height to support flexbox centering */
+    margin: 0;     /* Remove default margin */
+    display: flex; /* Enable flexbox to center content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center;     /* Center content vertically */
+    background-color: #f7f7f7; /* Light grey background for slight contrast with the form */
+}
+
+/* Styling for the container that holds the login form */
 .login-container {
-    width: 100%;
-    max-width: 400px;
-    margin: 50px auto;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
+    width: 100%;          /* Full width but constrained by max-width */
+    max-width: 500px;     /* Max width for better control on large screens */
+    padding: 40px;        /* Padding around the form elements within the container */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for 3D effect */
+    background-color: #fff; /* White background for the form area */
+    border-radius: 10px;  /* Rounded corners for the container */
 }
 
+/* Styles for the header in the login form */
 .login-form h2 {
-    text-align: center;
+    text-align: center; /* Center-align the heading */
+    font-size: 2rem;    /* Larger font size for clear visibility */
 }
 
+/* Styling for each input group (label + input) */
 .input-group {
-    margin-bottom: 20px;
+    margin-bottom: 25px; /* Space between each input group */
 }
 
+/* Specific styles for labels */
 .input-group label {
-    display: block;
-    margin-bottom: 5px;
+    display: block;      /* Ensure the label takes its own line */
+    margin-bottom: 8px;  /* Space below each label */
+    font-size: 1.2rem;   /* Larger font size for readability */
 }
 
+/* Styling for input fields */
 .input-group input {
-    width: 100%;
-    padding: 8px;
-    box-sizing: border-box;
+    width: 100%;         /* Full width to fill the container */
+    padding: 12px;       /* Padding inside the input for text visibility and easier interaction */
+    font-size: 1.1rem;   /* Slightly larger text for easy reading */
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+    border: 2px solid #ccc; /* Subtle border for definition */
+    border-radius: 5px;  /* Rounded borders for the input fields */
 }
 
+/* Styles for the login button */
 .login-button {
-    width: 100%;
-    padding: 10px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    width: 100%;         /* Full width to match input fields */
+    padding: 15px;       /* Thicker padding for a more clickable button */
+    background-color: #007BFF; /* Bright blue background to stand out */
+    color: white;        /* White text for contrast and readability */
+    border: none;        /* No border for a cleaner look */
+    border-radius: 5px;  /* Consistent rounded corners as input fields */
+    font-size: 1.2rem;   /* Larger text on button for clear action indication */
+    cursor: pointer;     /* Pointer cursor on hover to indicate clickability */
 }
 
+/* Hover effect for the login button */
 .login-button:hover {
-    background-color: #0056b3;
+    background-color: #0056b3; /* Darker blue on hover for button interaction feedback */
 }
