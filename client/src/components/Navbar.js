@@ -1,17 +1,19 @@
 import React from 'react';
-import Navbar from './Navbar';
 
-function NavbarPage() {
+function Navbar() {
     return (
-        <div>
-            <Navbar />
-            <div className="container mx-auto p-4">
-                <h1 className="text-2xl font-bold">Navbar Demo Page</h1>
-                <p>This page is designed to demonstrate the appearance and functionality of the Navbar component in different scenarios.</p>
-                {/* Include various content or styles to test your Navbar under different conditions */}
+        <nav className="bg-gray-800 text-white p-4">
+            <div className="container mx-auto flex justify-between items-center">
+                <h1 className="text-lg font-bold">Spudy</h1>
+                <div>
+                    <a href="/" className="px-4 hover:text-gray-300">Home</a>
+                    <a href="/about" className="px-4 hover:text-gray-300">About</a>
+                    <a href="/features" className="px-4 hover:text-gray-300">Features</a>
+                    <a href="/contact" className="px-4 hover:text-gray-300">Contact</a>
+                </div>
             </div>
-        </div>
+        </nav>
     );
 }
 
-export default NavbarPage;
+export default Navbar;
