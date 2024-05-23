@@ -7,7 +7,6 @@ function Home() {
             <Navbar /> {/* Including the Navbar at the top */}
             <div className='w-full h-screen flex flex-col justify-center items-center' style={{ backgroundImage: `url(/Study-unsplash.jpg)`, backgroundSize: 'cover' }}>
                 <div className='text-center p-4'>
-                    <h1 className='text-5xl font-bold mb-3'>Welcome to Spudy!</h1>
                     <h1 className='text-5xl font-bold mb-4'>Study, learn, plan, organize</h1>
 					<p className='text-xl mb-4'>Your ultimate study space.</p>
                     <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>
