@@ -5,17 +5,18 @@ function Home() {
     return (
         <div>
             <Navbar /> {/* Including the Navbar at the top */}
-            <div className='w-full h-screen flex flex-col justify-center items-center' style={{ backgroundImage: `url(/Study-unsplash.jpg)`, backgroundSize: 'cover' }}>
+            <div id="home" className='w-full h-screen flex flex-col justify-center items-center' style={{ backgroundImage: `url(/Study-unsplash.jpg)`, backgroundSize: 'cover' }}>
                 <div className='text-center p-4'>
                     <h1 className='text-5xl font-bold mb-4'>Study, learn, plan, organize</h1>
-					<p className='text-xl mb-4'>Your ultimate study space.</p>
+                    <p className='text-xl mb-4'>Your ultimate study space.</p>
                     <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>
                         Get Started
                     </button>
                 </div>
             </div>
 
-			<h1 className="text-4xl font-bold text-gray-800 mb-6">About Spudy</h1>
+            <div id="about" className="text-4xl font-bold text-gray-800 mb-6">
+                <h1>About Spudy</h1>
                 <p className="text-lg text-gray-600 mb-4">
                     Spudy is your ultimate study companion designed to help streamline
                     your learning experience, organize your study materials, and boost
@@ -34,14 +35,12 @@ function Home() {
                     needs of learners around the globe. We're committed to helping you
                     achieve your learning goals.
                 </p>
+            </div>
 
-
-            <div className='bg-gray-200 text-gray-800 p-4'>
+            <div id="contact" className='bg-gray-200 text-gray-800 p-4'>
                 <h2 className='text-3xl font-bold text-center'>Contact</h2>
                 <p className='text-center'>Email: jerrylin2488@gmail.com</p>
             </div>
-
-			
         </div>
     )
 }

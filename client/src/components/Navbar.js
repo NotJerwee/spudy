@@ -1,15 +1,16 @@
 import React from 'react';
+import style from './Navbar.module.css';
 
 function Navbar() {
     return (
-        <nav className="bg-gray-800 text-white p-4 fixed top-0 left-0 right-0 z-10">
+        <nav className={style.navbar}>
             <div className="container mx-auto flex justify-between items-center w-full">
-                <h1 className="text-3xl font-bold">Spudy</h1>  
+                <h1 className="text-3xl font-bold">Spudy</h1>
                 <div>
-                    <a href="/" className="px-4 hover:text-gray-300 text-lg">Home</a>  
-                    <a href="/about" className="px-4 hover:text-gray-300 text-lg">About</a>  
-                    <a href="/login" className="px-4 hover:text-gray-300 text-lg">Log in</a> 
-                    <a href="/contact" className="px-4 hover:text-gray-300 text-lg">Contact</a> 
+                    <a href="#home" className={style.link}>Home</a>
+                    <a href="#about" className={style.link}>About</a>
+                    <a href="/login" className={style.link}>Log in</a> 
+                    <a href="#contact" className={style.link}>Contact</a>
                 </div>
             </div>
         </nav>
