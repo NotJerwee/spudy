@@ -13,7 +13,7 @@ download zip folder
 
 Change directory
 ```
-cd firebase-user-auth
+cd spudy
 ```
 
 Install packages
