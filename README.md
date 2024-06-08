@@ -6,7 +6,7 @@ Welcome to the repository of the project Spudy.
 
 Git clone
 ```
-https://github.com/yourusername/firebase-user-auth.git
+https://github.com/yourusername/spudy.git
 ```
 or
 download zip folder
