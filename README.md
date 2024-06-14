@@ -4,24 +4,23 @@ Welcome to the repository of the project Spudy.
 
 # Installation
 
-Git clone
+Clone the repository:
 ```
 https://github.com/yourusername/spudy.git
 ```
-or
-download zip folder
+or download zip folder.
 
-Change directory
+Change to the project directory:
 ```
 cd spudy
 ```
 
-Install packages
+Install the necessary packages:
 ```
 npm install
 ```
 
-Run the project
+Start the project
 ```
 npm start
 ```
@@ -31,6 +30,3 @@ npm start
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
-
-
