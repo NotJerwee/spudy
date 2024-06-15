@@ -1,6 +1,6 @@
 # Spudy
 
-Welcome to the repository of the project Spudy. 
+Welcome to the repository of the project Spudy. Ongoing
 
 # Installation
 
